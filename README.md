@@ -27,13 +27,21 @@ Existing structured data lack context, such as intensity, duration, or age-speci
 
 Timely insights into ADEs are critical for healthcare decision-making and patient safety.
 
+### Solution
+
+![alt text](Images/solution_architeture.drawio.png)
+
 ### Task Overview
 
-As part of the ADEGuard project, the AI system is designed to:
+As part of the ADEGuard project:
 
 Create Gold Data: Manually annotate ADE and DRUG spans in patient narratives.
 
+![alt text](Images/dataprep_&_gold_annotations.drawio.png)
+
 Use Weak Supervision: Generate weak labels from existing report data.
+
+![alt text](Images/weak_supervision_pipeline.drawio.png)
 
 NER Extraction: Detect ADE and DRUG entities using BioBERT or similar biomedical NER models.
 
