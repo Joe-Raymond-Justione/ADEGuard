@@ -9,7 +9,7 @@ Architecture diagram.
 Reproducibility notes. -->
 
 
-# ADEGuard
+# 🏥 ADEGuard
 
 ADEGuard is an AI-powered system designed to detect Adverse Drug Events (ADEs) from free-text patient reports, cluster symptom variants with age and modifier awareness, and classify their severity. The project is part of a broader health-tech initiative by CureviaAI, focusing on real-world problems in drug safety, patient care, and clinical decision support.
 
